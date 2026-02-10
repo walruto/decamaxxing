@@ -245,7 +245,7 @@ export default function Layout({
           </header>
 
           {/* Scrollable Content */}
-          <div className="flex-1 overflow-y-auto p-4 lg:p-8">
+          <div className="flex-1 overflow-y-auto p-4 lg:p-8 pt-20 lg:pt-0">
             {children}
           </div>
         </main>
