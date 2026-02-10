@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cluster Color Variables */
+:root {
+  /* Entrepreneurship (Orange) */
+  --cluster-primary-Entrepreneurship: rgb(234, 88, 12);
+  --cluster-text-Entrepreneurship: rgb(234, 88, 12);
+  --cluster-gradient-Entrepreneurship: linear-gradient(to bottom right, rgb(124, 45, 18), rgb(120, 53, 15));
+  
+  /* Marketing (Blue) */
+  --cluster-primary-Marketing: rgb(37, 99, 235);
+  --cluster-text-Marketing: rgb(37, 99, 235);
+  --cluster-gradient-Marketing: linear-gradient(to bottom right, rgb(30, 58, 138), rgb(67, 56, 202));
+  
+  /* Finance (Green) */
+  --cluster-primary-Finance: rgb(22, 163, 74);
+  --cluster-text-Finance: rgb(22, 163, 74);
+  --cluster-gradient-Finance: linear-gradient(to bottom right, rgb(20, 83, 45), rgb(6, 95, 70));
+  
+  /* Hospitality (Purple) */
+  --cluster-primary-Hospitality: rgb(147, 51, 234);
+  --cluster-text-Hospitality: rgb(147, 51, 234);
+  --cluster-gradient-Hospitality: linear-gradient(to bottom right, rgb(88, 28, 135), rgb(109, 40, 217));
+  
+  /* Business Admin (Red) */
+  --cluster-primary-Business-Admin: rgb(220, 38, 38);
+  --cluster-text-Business-Admin: rgb(220, 38, 38);
+  --cluster-gradient-Business-Admin: linear-gradient(to bottom right, rgb(153, 27, 27), rgb(190, 18, 60));
+}

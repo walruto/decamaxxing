@@ -1,0 +1,1651 @@
+{
+  "cluster": "Entrepreneurship",
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "ENT-001",
+      "question": "While doing a cost-benefit analysis, Janae found it quite difficult to measure certain items in dollar amounts. Such costs or benefits are most likely to be __________ costs or benefits.",
+      "choices": { "A": "opportunity", "B": "one-time", "C": "intangible", "D": "hidden" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Opportunity costs represent benefits missed when choosing one alternative over another.",
+        "B": "One-time costs occur only once, such as an initial purchase fee.",
+        "C": "Correct. Intangible costs or benefits are those that are difficult to measure in dollar amounts, such as morale or brand reputation.",
+        "D": "Hidden costs are unexpected expenses that arise during a project."
+      },
+      "topic": "Financial Analysis",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-002",
+      "question": "Which of the following is a benefit of establishing incident reporting procedures in the workplace:",
+      "choices": {
+        "A": "Employees use their judgment to determine if a report should be issued.",
+        "B": "Managers who create these procedures are not required to follow up on incidents.",
+        "C": "Managers who have information about incidents can investigate possible causes.",
+        "D": "Employees cannot file official complaints if an incident is reported correctly."
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Procedures should provide clear criteria, not rely solely on individual judgment.",
+        "B": "Managers must follow up on incidents to prevent future occurrences.",
+        "C": "Correct. Documented reports provide data necessary for managers to investigate and mitigate risks.",
+        "D": "Incident reporting does not preclude employees from filing official complaints."
+      },
+      "topic": "Risk Management",
+      "difficulty": "easy",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-003",
+      "question": "For project managers, the most important part of managing stakeholder expectations is",
+      "choices": { "A": "justifying them.", "B": "understanding them.", "C": "competing against them.", "D": "delegating them." },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Justification is secondary to identifying what the expectations actually are.",
+        "B": "Correct. A manager must first comprehend what stakeholders expect to manage those needs effectively.",
+        "C": "Managers should work with stakeholders, not compete against their expectations.",
+        "D": "Expectation management is a core leadership task that cannot be fully delegated."
+      },
+      "topic": "Project Management",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-004",
+      "question": "When Nilesh started a new job, he trained alongside another employee for a few weeks so that he could get the hang of his job duties. The time that Nilesh spent training with the other employee is an example of a(n)",
+      "choices": { "A": "emergency.", "B": "resource issue.", "C": "government regulation.", "D": "transition period." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Training is a planned activity, not an unexpected emergency.",
+        "B": "A resource issue typically refers to a shortage of tools or materials.",
+        "C": "While some training is mandated, this specific scenario describes the onboarding phase.",
+        "D": "Correct. A transition period is the time taken to move from one state or job role to another."
+      },
+      "topic": "Human Resources",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-005",
+      "question": "The first step in an organizational risk assessment is",
+      "choices": {
+        "A": "pinpointing who might be harmed.",
+        "B": "evaluating the risks and making a plan.",
+        "C": "recording and implementing your findings.",
+        "D": "identifying the potential hazards."
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Determining who is at risk is the second step, after hazards are found.",
+        "B": "Evaluation happens after hazards and people at risk are identified.",
+        "C": "Recording findings is a later step in the formal assessment process.",
+        "D": "Correct. You cannot assess risk until you have identified what the potential hazards are."
+      },
+      "topic": "Risk Management",
+      "difficulty": "medium",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-006",
+      "question": "A primary advantage for marketers who use direct mail to promote products is that",
+      "choices": {
+        "A": "most marketers find that it is more effective than micro-marketing methods.",
+        "B": "it is usually less expensive than personal selling methods.",
+        "C": "it is more effective in creating brand awareness than television advertising.",
+        "D": "marketers can deliver their messages to a broad audience."
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Effectiveness varies; direct mail is often a form of micro-marketing itself.",
+        "B": "Correct. Sending mail is significantly cheaper than employing a salesperson for 1-on-1 interaction.",
+        "C": "TV advertising typically has a much higher reach for general brand awareness.",
+        "D": "Direct mail is usually targeted to specific lists rather than a broad, general audience."
+      },
+      "topic": "Promotion",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-007",
+      "question": "Kyra is a business owner who wants to calculate individual employee productivity. She knows that last month, her team of four workers generated $10,000 worth of goods by working 200 hours in an office space measuring 1,000 square feet. What is the labor productivity per employee for the whole month?",
+      "choices": { "A": "$40,000", "B": "$12.50", "C": "$800", "D": "$2,500" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "This figure is way above the total output of the entire team.",
+        "B": "This is likely a per-hour calculation ($10,000 / 800 total hours if they worked 200 each).",
+        "C": "This does not match the mathematical division of output by staff.",
+        "D": "Correct. $10,000 total output divided by 4 employees equals $2,500 per employee."
+      },
+      "topic": "Business Operations",
+      "difficulty": "hard",
+      "mastery": 50
+    },
+    {
+      "id": "ENT-008",
+      "question": "Le'veon wants to create a marketing mix that includes both push and pull strategies. Which marketing mix should he choose?",
+      "choices": {
+        "A": "Mass media advertising and sales promotions",
+        "B": "Referrals and sales promotions",
+        "C": "Getting retailers to stock the product and creating a supply chain",
+        "D": "Customer relationship management and trade shows"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Mass media (pull) draws consumers in, while sales promotions (push) encourage immediate buying.",
+        "B": "Referrals are organic; they don't cleanly represent a strategic push/pull mix.",
+        "C": "This describes logistics and distribution, not necessarily a balanced marketing mix.",
+        "D": "CRM is a retention tool, and trade shows are purely a push strategy."
+      },
+      "topic": "Marketing",
+      "difficulty": "hard",
+      "mastery": 45
+    },
+    {
+      "id": "ENT-009",
+      "question": "Which of the following is an effective negotiation strategy:",
+      "choices": {
+        "A": "Using a 'give-and-take' tactic to reach an agreement",
+        "B": "Giving the other person as much time as they need to decide",
+        "C": "Pushing the other person into making a decision",
+        "D": "Insisting on your terms during the negotiation process"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Compromise and reciprocity are essential for a mutually beneficial agreement.",
+        "B": "Unlimited time can lead to stagnation; deadlines are often necessary.",
+        "C": "Aggressive pressure often destroys trust and ruins future business relationships.",
+        "D": "Refusing to budge is a 'win-lose' approach that often leads to no agreement at all."
+      },
+      "topic": "Professional Development",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-010",
+      "question": "Determine the cost of goods sold for a business when the beginning inventory was $250,000, purchases were $600,000, and the ending inventory was $200,000.",
+      "choices": { "A": "$1,050,000", "B": "$650,000", "C": "$400,000", "D": "$150,000" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "This number is higher than the sum of the inventory and purchases.",
+        "B": "Correct. $250,000 (Beg) + $600,000 (Purch) - $200,000 (End) = $650,000.",
+        "C": "This value does not follow the COGS formula.",
+        "D": "This is only the difference between purchases and ending inventory."
+      },
+      "topic": "Accounting",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-011",
+      "question": "One reason it is important for a business to develop a marketing plan is that the plan",
+      "choices": {
+        "A": "provides guidelines for personnel to meet the company's objectives.",
+        "B": "allows the business to focus on short-term goals instead of long-term goals.",
+        "C": "reduces the need to implement corrective action or contingency plans.",
+        "D": "increases the business's financial security in an unpredictable environment."
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. A plan serves as a roadmap to ensure everyone is working toward the same goals.",
+        "B": "Effective plans should balance both short-term and long-term objectives.",
+        "C": "Planning actually helps identify when corrective action is needed.",
+        "D": "While it helps, a plan alone cannot guarantee financial security in a volatile market."
+      },
+      "topic": "Marketing Planning",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-012",
+      "question": "A local veterinarian decides to add a surgical wing to their office, which will allow them to serve more patients over the coming years. The cost of building the new wing is an example of a(n)",
+      "choices": { "A": "operating expense.", "B": "expense control.", "C": "capital expenditure.", "D": "budget deficit." },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Operating expenses are day-to-day costs like utilities and rent.",
+        "B": "Expense control refers to strategies to reduce spending[cite: 146].",
+        "C": "Correct. Capital expenditures are investments in long-term assets like buildings[cite: 147, 689].",
+        "D": "A budget deficit occurs when total expenses exceed total income."
+      },
+      "topic": "Finance",
+      "difficulty": "medium",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-013",
+      "question": "One way that a business can learn about its competitors' activities is by",
+      "choices": {
+        "A": "developing product specifications.",
+        "B": "reviewing secondary data.",
+        "C": "identifying communication barriers.",
+        "D": "evaluating intranet efficiencies."
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Internal specs don't provide outside info[cite: 196].",
+        "B": "Correct. Secondary data includes competitor promo materials and industry publications[cite: 151, 152].",
+        "C": "Barriers interfere with information exchange[cite: 197].",
+        "D": "Competitor intranets are private and inaccessible[cite: 153, 195]."
+      },
+      "topic": "Competitive Analysis",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-014",
+      "question": "Key performance indicators used to assess business performance should align with the business's",
+      "choices": { "A": "corporate culture.", "B": "payroll and benefits.", "C": "operating expenses.", "D": "goals and objectives." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Culture is important but KPIs measure specific performance targets.",
+        "B": "Payroll is a cost, not usually the primary driver for performance metrics.",
+        "C": "Operating expenses are monitored but KPIs track the achievement of success.",
+        "D": "Correct. KPIs must measure how well a business is reaching its stated goals[cite: 700]."
+      },
+      "topic": "Management",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-015",
+      "question": "What can a business do to help prevent former employees from sharing confidential business strategies and knowledge with competitors?",
+      "choices": {
+        "A": "Require employees to sign non-disclosure agreements.",
+        "B": "Acquire patents and copyright registrations for intellectual property.",
+        "C": "Pay contingency fees to ensure lawyers are available when needed.",
+        "D": "Require employees to maintain records of key knowledge."
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. NDAs provide a legal incentive to keep information secret[cite: 703].",
+        "B": "Patents protect designs but don't stop strategic knowledge sharing[cite: 218].",
+        "C": "Lawyers don't proactively prevent information leaks[cite: 219].",
+        "D": "Maintaining records doesn't stop an employee from sharing them[cite: 217]."
+      },
+      "topic": "Information Protection",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-016",
+      "question": "Which form of business ownership makes up the minority of businesses in the U.S. yet makes up the majority of sales?",
+      "choices": { "A": "Sole proprietorships", "B": "Corporations", "C": "Partnerships", "D": "LLCs" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Sole proprietorships are the most common but generate the least individual sales.",
+        "B": "Correct. Corporations are fewer in number but dominate in total revenue[cite: 709].",
+        "C": "Partnerships are a smaller segment in both count and total sales.",
+        "D": "LLCs are widespread but large corporations still hold the majority of sales volume."
+      },
+      "topic": "Business Ownership",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-017",
+      "question": "Dion works in the production planning department of a company that makes machinery. This machinery is then sold to companies that use it to create vehicles. Dion's company's output is considered",
+      "choices": { "A": "human resources.", "B": "consumer goods.", "C": "industrial goods.", "D": "intangible products." },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Human resources refers to the labor force, not the product.",
+        "B": "Consumer goods are sold to end-users for personal use.",
+        "C": "Correct. Industrial goods are used by businesses to produce other goods[cite: 716].",
+        "D": "Machinery is a physical, tangible product."
+      },
+      "topic": "Economics",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-018",
+      "question": "When Jackson, a manager at AMO Inc., uses the company car to run personal errands during working hours, he is acting unethically because he is",
+      "choices": { "A": "misusing company resources.", "B": "violating government policies.", "C": "harassing other employees.", "D": "sharing confidential information." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Using company assets for personal gain without permission is a misuse of resources[cite: 720].",
+        "B": "This is an internal policy issue, not necessarily a government one.",
+        "C": "Errands are not related to employee harassment.",
+        "D": "Using a car does not involve leaking business secrets."
+      },
+      "topic": "Ethics",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-019",
+      "question": "When a business has been running successfully for several years, what would be a probable next financial step?",
+      "choices": { "A": "Acquiring startup funds", "B": "Deciding on financial goals", "C": "Determining product prices", "D": "Purchasing a second location" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Startup funds are only for new ventures.",
+        "B": "Goals should be decided before or at the start of the business.",
+        "C": "Pricing is determined during the initial launch and adjusted over time.",
+        "D": "Correct. Expansion to a second location is a common growth step for established businesses[cite: 728]."
+      },
+      "topic": "Business Growth",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-020",
+      "question": "Which of the following decreases as production increases in a business that has economies of scale:",
+      "choices": { "A": "Income taxes", "B": "Pay rates", "C": "Net profits", "D": "Fixed costs" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Income taxes typically increase as a business becomes more profitable.",
+        "B": "Pay rates usually remain stable or increase with business success.",
+        "C": "Net profits should increase as production becomes more efficient.",
+        "D": "Correct. Economies of scale spread fixed costs over more units, lowering the per-unit cost[cite: 733]."
+      },
+      "topic": "Economics",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-021",
+      "question": "The VOT Company's IT staff has developed a software program that will simplify several processes across multiple departments of the business. In simplifying these processes, the software will increase overall efficiency. Which of the following best describes the direct cause of these business process changes and improvements:",
+      "choices": { "A": "Lower costs", "B": "New technology", "C": "Better return on investment", "D": "Industry trends" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Lower costs may be a result, but they aren't the cause of the software's creation.",
+        "B": "Correct. The development of the new software is a technological driver for change[cite: 739].",
+        "C": "ROI is a measurement of success, not the driver of the process itself.",
+        "D": "Internal software development is driven by company needs more than external trends."
+      },
+      "topic": "Business Processes",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-022",
+      "question": "Intermediaries buy large quantities of goods from producers and sell smaller quantities to other intermediaries or to consumers. The result is that intermediaries",
+      "choices": { "A": "reduce", "B": "increase", "C": "stabilize", "D": "control" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. By breaking bulk and handling logistics, they reduce per-unit costs for others[cite: 744].",
+        "B": "Intermediaries are designed to add value and efficiency, not just cost.",
+        "C": "While they can help, their primary function is distribution efficiency.",
+        "D": "They participate in the channel but don't always control the entire market."
+      },
+      "topic": "Distribution",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-023",
+      "question": "When employees are exposed to a variety of different ideas and perspectives, they are more likely to come up with their own new ideas and strategies. In other words, knowledge and learning lead to",
+      "choices": { "A": "leadership.", "B": "innovation.", "C": "complacency.", "D": "curiosity." },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Leadership is a skill set that may benefit from learning but isn't the direct outcome of this scenario.",
+        "B": "Correct. Innovation is the practical application of new ideas[cite: 752].",
+        "C": "Exposure to new ideas prevents complacency.",
+        "D": "Curiosity often sparks the learning, while innovation is the result."
+      },
+      "topic": "Creativity",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-024",
+      "question": "Melissa has been assigned a unique task at work; her boss wants her to oversee her team's adoption of a new software. They explain that Melissa should make a plan for the integration of the new software, support her teammates in the transition, and ensure that the transition is successful. In other words, Melissa is responsible for",
+      "choices": { "A": "change management.", "B": "managerial control.", "C": "human resources management.", "D": "organizational goal setting." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Change management involves guiding individuals and teams through transitions[cite: 759].",
+        "B": "Managerial control is about monitoring performance against standards.",
+        "C": "HR covers broader employee lifecycles, not just one specific software transition.",
+        "D": "Goal setting happens at a higher strategic level than this tactical software rollout."
+      },
+      "topic": "Management",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-025",
+      "question": "Which of the following is an important component of a business's press kit:",
+      "choices": { "A": "Biographies of key company figures", "B": "Promotional messages", "C": "Customer testimonials", "D": "Interviews" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Press kits need bios so the media knows who the leaders are[cite: 764].",
+        "B": "Press kits should be informational for journalists, not overly sales-oriented.",
+        "C": "Testimonials are better for advertising than for a media press kit.",
+        "D": "Interviews are a result of a press kit, not a component within it."
+      },
+      "topic": "Public Relations",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-026",
+      "question": "If a marketer is looking to gather data from a company's sales team, what information can they expect to find?",
+      "choices": {
+        "A": "Updates on current trends in the marketing industry",
+        "B": "Who the company's current and potential customers are",
+        "C": "What products competitors are currently offering",
+        "D": "The cost of goods, services, and raw materials"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Sales teams know their territory, but industry trends usually come from research.",
+        "B": "Correct. Salespeople are on the front lines and know exactly who is buying[cite: 770].",
+        "C": "While they see competitors, their primary data is about their own customers.",
+        "D": "Cost data is managed by accounting and production, not usually sales."
+      },
+      "topic": "Marketing Research",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-027",
+      "question": "Which of the following statements regarding corporate governance is true:",
+      "choices": {
+        "A": "The focus of corporate governance is social rather than financial.",
+        "B": "The principles of corporate governance often conflict with sustainability.",
+        "C": "Small businesses do not need formal corporate governance.",
+        "D": "Corporate governance keeps any one person from having too much control."
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Governance covers both financial accountability and social responsibility.",
+        "B": "Good governance actually supports long-term sustainability.",
+        "C": "Small businesses still need oversight, even if less complex than large firms.",
+        "D": "Correct. Checks and balances are the core of governance[cite: 778]."
+      },
+      "topic": "Business Governance",
+      "difficulty": "hard",
+      "mastery": 50
+    },
+    {
+      "id": "ENT-028",
+      "question": "After a good is produced, the price of that good should be set at a point at which",
+      "choices": { "A": "a large profit is made.", "B": "competition has sold the good.", "C": "the price is twice the cost.", "D": "the good will sell." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Profit is only possible if someone actually buys the item.",
+        "B": "Competitor pricing is a factor, but not the only one.",
+        "C": "Markup varies wildly by industry and is not a universal rule.",
+        "D": "Correct. A product's price must align with what the market is willing to pay[cite: 783]."
+      },
+      "topic": "Pricing",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-029",
+      "question": "Which of the following is a way in which the government supports the growth of business:",
+      "choices": { "A": "Surveys", "B": "Subsidies", "C": "Tax increases", "D": "Tariff reductions" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Surveys gather data but don't directly fund or support growth.",
+        "B": "Correct. Subsidies are financial aid provided by the government to help industries[cite: 786].",
+        "C": "Tax increases generally hinder business growth by reducing available cash.",
+        "D": "While helpful for trade, subsidies are a more direct form of support."
+      },
+      "topic": "Business and Government",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-030",
+      "question": "Which of the following information about new employees are businesses required to report to the federal government:",
+      "choices": { "A": "References", "B": "Compensation", "C": "Benefits", "D": "Address" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "References are for hiring and are not reported federally.",
+        "B": "Pay is reported for taxes, but basic identity and location are standard reporting requirements.",
+        "C": "Benefits are internal unless they impact taxable income reporting.",
+        "D": "Correct. Businesses must report employee identification details like name and address[cite: 794]."
+      },
+      "topic": "Business Law",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-031",
+      "question": "Which of the following would a business use to know how much money is available to hire more staff:",
+      "choices": { "A": "Income statements", "B": "Profit-and-loss statements", "C": "Journals", "D": "Accounting information" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Income statements show past profit, not necessarily current liquid cash.",
+        "B": "This is another name for an income statement.",
+        "C": "Journals are raw records of daily transactions.",
+        "D": "Correct. Comprehensive accounting information provides the total financial picture[cite: 798]."
+      },
+      "topic": "Accounting",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-032",
+      "question": "An internet and cable provider is considering whether to implement a new process that would require its customer service agents to work the phone lines for 24 hours a day instead of the previous 12 hours a day. What type of factor will most likely impact the design of this new process?",
+      "choices": { "A": "Regulatory", "B": "Environmental", "C": "Human", "D": "Technological" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Regulation may apply, but the shift change is primarily a staffing issue.",
+        "B": "The physical environment doesn't change with the hour of the day.",
+        "C": "Correct. Managing 24-hour shifts requires human-centric planning for sleep and health[cite: 804].",
+        "D": "The technology stays the same; the workers are what change."
+      },
+      "topic": "Operations",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-033",
+      "question": "Ad-blocking software and spam filters help individuals avoid",
+      "choices": { "A": "direct print mail.", "B": "unsolicited publications.", "C": "unwanted digital advertising.", "D": "telemarketing calls." },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Software cannot stop physical paper mail.",
+        "B": "Unsolicited publications could be physical or digital, but digital ads are the specific target.",
+        "C": "Correct. These tools are designed to block online advertisements and emails[cite: 809].",
+        "D": "Telemarketing is handled via phone settings or 'Do Not Call' lists."
+      },
+      "topic": "Technology",
+      "difficulty": "easy",
+      "mastery": 95
+    },
+    {
+      "id": "ENT-034",
+      "question": "Which of the following is a product consideration when selecting distribution channel members:",
+      "choices": { "A": "Perishability", "B": "Promotion", "C": "Intensity", "D": "Segmentation" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. If a product rots quickly, you need a short, fast distribution channel[cite: 813].",
+        "B": "Promotion is a separate part of the marketing mix.",
+        "C": "Intensity refers to distribution density, not the product itself.",
+        "D": "Segmentation is about identifying the customer, not the physical product's needs."
+      },
+      "topic": "Channel Management",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-035",
+      "question": "A comprehensive report reveals that the Sabin Company can increase its data-entry outputs by 20% in a six-month period by installing the MMX software system. Sabin can use this type of business analysis to determine",
+      "choices": {
+        "A": "why it should evaluate work schedules.",
+        "B": "how to increase its efficiency.",
+        "C": "how to detect a problem.",
+        "D": "why it should obtain new markets."
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Evaluating schedules might help, but the focus here is software-driven output.",
+        "B": "Correct. Increasing output with new systems is a direct improvement in efficiency[cite: 820].",
+        "C": "Analysis here is proactive and solution-oriented, not just diagnostic.",
+        "D": "Output efficiency is an internal metric, not a market expansion strategy."
+      },
+      "topic": "Business Analysis",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-036",
+      "question": "When attempting to reduce costs, most businesses will first cut",
+      "choices": { "A": "fixed", "B": "production", "C": "variable", "D": "operating" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Fixed costs like rent are often locked in by long-term contracts.",
+        "B": "Cutting production reduces the items you have to sell, which hurts revenue.",
+        "C": "Correct. Variable costs are the easiest to adjust in the short term[cite: 827].",
+        "D": "Operating costs include fixed items that cannot be easily cut."
+      },
+      "topic": "Financial Management",
+      "difficulty": "hard",
+      "mastery": 50
+    },
+    {
+      "id": "ENT-037",
+      "question": "Which of the following is considered an external control mechanism impacting how a company functions:",
+      "choices": { "A": "Industry standards", "B": "Payroll reviewed by leaders", "C": "Usernames and passwords", "D": "Segregation of duties" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Standards set by outside bodies influence how a business must operate[cite: 830].",
+        "B": "Payroll review is an internal management control.",
+        "C": "Logins are internal security measures.",
+        "D": "Segregation of duties is an internal organizational structure[cite: 242]."
+      },
+      "topic": "Business Environment",
+      "difficulty": "medium",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-038",
+      "question": "Which of the following is an example of two businesses that are indirect competitors:",
+      "choices": {
+        "A": "McDonald's and Burger King",
+        "B": "Starbucks and American Eagle Outfitters",
+        "C": "AT&T and Verizon",
+        "D": "Apple and Microsoft"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "These are direct competitors selling similar food products.",
+        "B": "Correct. They compete for the same customer's 'discretionary' dollar but sell different things[cite: 836].",
+        "C": "These are direct competitors in telecommunications.",
+        "D": "These are direct competitors in software and hardware."
+      },
+      "topic": "Competition",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-039",
+      "question": "Which of the following types of internal work teams do many businesses use to recognize product opportunities on a continuous basis:",
+      "choices": { "A": "Cross-functional", "B": "Production", "C": "Homogenous", "D": "Independent-matrix" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Diverse teams bring different views to spark new product ideas[cite: 237, 238].",
+        "B": "Production teams focus on making the item, not always finding new ones.",
+        "C": "Homogenous teams lack the diversity needed for varied perspectives[cite: 239].",
+        "D": "This is not a standard term for a product-development team[cite: 239]."
+      },
+      "topic": "Innovation",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-040",
+      "question": "Which of the following is an internal factor that impacts corporate governance structures:",
+      "choices": { "A": "Regulation", "B": "Independent audits", "C": "Segregation of duties", "D": "Industry association guidelines" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Regulation is an external factor[cite: 245].",
+        "B": "Independent audits are conducted by external third parties[cite: 245].",
+        "C": "Correct. This is an internal policy that splits tasks among different people[cite: 241, 242].",
+        "D": "Association guidelines are external[cite: 245]."
+      },
+      "topic": "Business Governance",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-041",
+      "question": "Which of the following is a benefit of debt financing when starting a business:",
+      "choices": {
+        "A": "You don't have to pay back the money if the business fails.",
+        "B": "You have control over how the money is spent.",
+        "C": "You have help from knowledgeable, experienced investors.",
+        "D": "You don't need to pay interest on the money."
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Debt must be repaid regardless of success, unlike equity.",
+        "B": "Correct. You retain full ownership and control, unlike equity financing[cite: 291, 853].",
+        "C": "Lenders usually don't provide business advice like venture capitalists do.",
+        "D": "Interest is the primary cost of debt financing."
+      },
+      "topic": "Entrepreneurial Finance",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-042",
+      "question": "An applicant for a position as a checker-cashier was asked to ring a sale on the cash register and to balance the cash register based on specific figures and transactions. What management selection device is being used?",
+      "choices": { "A": "Written test", "B": "Background investigation", "C": "Performance simulation test", "D": "Interview" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Written tests don't involve physical tasks[cite: 309].",
+        "B": "Background checks look at past history[cite: 311].",
+        "C": "Correct. This requires the applicant to perform actual job tasks[cite: 312, 859].",
+        "D": "An interview is a spoken dialogue[cite: 310]."
+      },
+      "topic": "Human Resources",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-043",
+      "question": "A business owner who plans to exit their business venture by selling it to another company needs to develop the business in a way that",
+      "choices": {
+        "A": "creates value for potential buyers.",
+        "B": "appeals to a specific company.",
+        "C": "allows them to maintain control after the purchase.",
+        "D": "will generate regular income for then after the purchase."
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. The business must be attractive and profitable to be sold[cite: 322, 323].",
+        "B": "Targeting only one buyer is risky and limits options[cite: 325].",
+        "C": "Selling a company usually means giving up control[cite: 324].",
+        "D": "Selling provides a lump sum, not usually a regular salary[cite: 324]."
+      },
+      "topic": "Exit Strategies",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-044",
+      "question": "When a business is successful in carrying out its brand promise, it provides its customers with",
+      "choices": { "A": "a variety of messages.", "B": "above-average product quality.", "C": "consistent experiences.", "D": "a single touchpoint." },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Brand promise requires a singular, consistent message.",
+        "B": "Promise is about reliability; quality could be high or low as long as it's what was promised.",
+        "C": "Correct. The goal of a brand promise is to ensure the customer knows what to expect every time[cite: 870].",
+        "D": "Customers interact through many touchpoints, which all must be consistent."
+      },
+      "topic": "Branding",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-045",
+      "question": "Which of the following is an interactive public relations activity:",
+      "choices": { "A": "Search engine optimization", "B": "Social media", "C": "Newsletter", "D": "Podcast" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "SEO is about visibility, not direct interaction.",
+        "B": "Correct. Social media allows for two-way communication between the brand and public[cite: 874].",
+        "C": "Newsletters are generally one-way broadcasts.",
+        "D": "Podcasts are listened to, with limited real-time interaction."
+      },
+      "topic": "Public Relations",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-046",
+      "question": "How does a business's gross profit compare to the industry standard of 25% if it has annual sales of $500,000 and cost of goods sold is $400,000?",
+      "choices": { "A": "5% lower", "B": "10% lower", "C": "5% higher", "D": "10% higher" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Gross Profit is $100k. $100k / $500k = 20%. 20% is 5% lower than 25%[cite: 346, 351].",
+        "B": "The calculation result is 20%, which is only 5% away from 25%.",
+        "C": "The profit is 20%, which is lower, not higher.",
+        "D": "The profit is 20%, which is lower, not higher."
+      },
+      "topic": "Financial Analysis",
+      "difficulty": "hard",
+      "mastery": 50
+    },
+    {
+      "id": "ENT-047",
+      "question": "Supply chain management attempts to control which of the following business activities:",
+      "choices": {
+        "A": "The buying and selling of stocks",
+        "B": "Production, shipment, and distribution of products",
+        "C": "Financial planning and managerial accounting",
+        "D": "Human resources and communications"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Stock trading is part of finance, not supply chain.",
+        "B": "Correct. Supply chain covers the flow of goods from creation to customer[cite: 885].",
+        "C": "Financial planning is a separate management function.",
+        "D": "HR is about personnel, and communications is about marketing/internal info."
+      },
+      "topic": "Operations",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-048",
+      "question": "An organization should include independent members on its board of directors because they",
+      "choices": {
+        "A": "are less likely to act unethically.",
+        "B": "understand the company's inner workings.",
+        "C": "provide an objective perspective.",
+        "D": "represent the interests of management."
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Independence doesn't guarantee ethics, though it reduces conflict of interest.",
+        "B": "Insider directors are the ones who know the inner workings best.",
+        "C": "Correct. They aren't tied to daily operations and can offer unbiased advice[cite: 892].",
+        "D": "They represent the shareholders, not the managers."
+      },
+      "topic": "Business Governance",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-049",
+      "question": "Yvonne wants her innovation to succeed, so she makes sure that there's a market for her innovation and that she has plenty of money and resources on hand. Which step of achieving innovation is Yvonne demonstrating?",
+      "choices": { "A": "Researching", "B": "Making connections", "C": "Reducing risk", "D": "Being open-minded and flexible" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Researching is part of it, but gathering resources is about stabilizing the idea.",
+        "B": "Making connections involves networking with people.",
+        "C": "Correct. Ensuring demand and resources minimizes the chance of failure[cite: 898].",
+        "D": "Flexibility is about being willing to change the idea as needed."
+      },
+      "topic": "Innovation",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-050",
+      "question": "How can Tracy make sure that her marketing campaigns support her company's goals?",
+      "choices": { "A": "Engage in market planning", "B": "Select the right channels", "C": "Use pricing strategies", "D": "Speak with customers" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Market planning aligns marketing efforts with broad business objectives[cite: 901].",
+        "B": "Channel selection is a tactical step within a larger plan.",
+        "C": "Pricing is only one part of the marketing mix.",
+        "D": "Customer feedback helps, but formal planning ensures alignment with goals."
+      },
+      "topic": "Marketing Planning",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-051",
+      "question": "On a balance sheet, a business categorizes its inventory and accounts receivable as",
+      "choices": { "A": "long-term assets.", "B": "owner's equity.", "C": "current liabilities.", "D": "current assets." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Long-term assets are those held for over a year, like property.",
+        "B": "Owner's equity represents the owner's investment in the business.",
+        "C": "Liabilities are debts; inventory and receivables are assets.",
+        "D": "Correct. Current assets are items expected to be converted to cash within a year[cite: 909]."
+      },
+      "topic": "Accounting",
+      "difficulty": "hard",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-052",
+      "question": "Businesses evaluate their relationships with banks to make sure the bank",
+      "choices": { "A": "likes the business.", "B": "understands the business.", "C": "operates worldwide.", "D": "will lower their interest rates." },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Personal feelings are less important than professional understanding.",
+        "B": "Correct. A bank that understands your industry is more likely to provide relevant support[cite: 386, 912].",
+        "C": "Small businesses often prefer local banks that understand the local market.",
+        "D": "While desired, a lower rate is a negotiation point, not always the goal of an evaluation."
+      },
+      "topic": "Finance",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-053",
+      "question": "Which of the following roles of selling in our economy helps products be 'in the right place at the right time':",
+      "choices": { "A": "Affects employment", "B": "Promotes competition", "C": "Adds utility", "D": "Helps customers determine needs" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Selling affects employment by creating jobs[cite: 389].",
+        "B": "Selling promotes competition by driving businesses to improve[cite: 389].",
+        "C": "Correct. Utility refers to the usefulness or value added by place and time[cite: 387, 388].",
+        "D": "Salespeople help identify needs, but that doesn't describe logistics/place[cite: 389]."
+      },
+      "topic": "Selling",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-054",
+      "question": "The business's manager planned for only a small increase in sales over the next year because the largest local employer had laid off workers and was reducing production. What factor did the manager consider in setting this goal?",
+      "choices": { "A": "Customer service", "B": "Competition", "C": "Past sales", "D": "Economic conditions" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Customer service is internal and not affected by external layoffs.",
+        "B": "Competition refers to other firms in the same industry.",
+        "C": "Past sales would not reflect a sudden local layoff.",
+        "D": "Correct. A local downturn changes the economic reality for the business[cite: 390, 391]."
+      },
+      "topic": "Management",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-055",
+      "question": "Julia has recently opened her own coffee shop. With all of the time she spends getting the new business up and running, she has missed her daughter's last four soccer games. This is an example of a(n) __________ risk that many entrepreneurs face when starting a business.",
+      "choices": { "A": "technological", "B": "emotional", "C": "reputational", "D": "financial" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Technological risk involves the failure of systems or software.",
+        "B": "Correct. Sacrificing personal and family time causes emotional and mental strain[cite: 439, 931].",
+        "C": "Reputational risk is about public perception of the business.",
+        "D": "Financial risk is about losing money."
+      },
+      "topic": "Entrepreneurship Nature",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-056",
+      "question": "Arthur's boss asked him to study his company's sales data from the previous five years to see if there were any trends. After his research, Arthur presented his findings to his boss along with his predictions for the future. This is an example of the process of",
+      "choices": { "A": "customer retention.", "B": "data mining.", "C": "the selling process.", "D": "competitive analysis." },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Retention is about keeping current customers.",
+        "B": "Correct. Data mining involves extracting patterns and trends from large datasets[cite: 458, 939].",
+        "C": "The selling process is the interaction with a customer to close a sale.",
+        "D": "Competitive analysis looks at other businesses, not just internal sales data."
+      },
+      "topic": "Business Information Management",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-057",
+      "question": "When an employee complaint results in a change in company policy, a manager should make sure employees are aware of the change by having the employees",
+      "choices": {
+        "A": "sign a statement that they know about the new policy.",
+        "B": "copy the policy into their personal notebooks.",
+        "C": "verbally repeat the policy to another employee.",
+        "D": "explain their interpretation of the new policy to a supervisor."
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Written acknowledgment ensures clarity and accountability[cite: 459, 944].",
+        "B": "Copying into personal notebooks is inefficient and lacks formal proof.",
+        "C": "Verbal repetition doesn't provide a legal record of acknowledgment.",
+        "D": "Interpretations can vary; a standardized sign-off is better."
+      },
+      "topic": "Management",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-058",
+      "question": "Which of the following is an example of a legally binding contract:",
+      "choices": {
+        "A": "A verbal expression of interest in an apartment",
+        "B": "Terms and conditions associated with software",
+        "C": "The purchase of an airline ticket",
+        "D": "Making a doctor's appointment"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Expressions of interest are not yet formal agreements.",
+        "B": "While they are agreements, the purchase of a specific service (like a ticket) is a primary contract example.",
+        "C": "Correct. Paying for a ticket creates a contract for the airline to provide transportation[cite: 951].",
+        "D": "An appointment is a schedule, not usually a legally enforceable contract."
+      },
+      "topic": "Business Law",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-059",
+      "question": "When is it more economical for a business to lease rather than to buy a facility?",
+      "choices": {
+        "A": "When credit standing is high",
+        "B": "When interest rates are low",
+        "C": "When available cash is limited",
+        "D": "When mortgage money is plentiful"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "High credit might actually make buying more affordable via better loan rates.",
+        "B": "Low interest rates make borrowing to buy more attractive.",
+        "C": "Correct. Leasing requires much less upfront capital than buying[cite: 956].",
+        "D": "If mortgage money is plentiful, buying is easier."
+      },
+      "topic": "Business Operations",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-060",
+      "question": "What is one reason why many people decide to become entrepreneurs?",
+      "choices": { "A": "Long hours", "B": "Less risk", "C": "Flexibility", "D": "Less responsibility" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Long hours are a drawback, not a reason to start.",
+        "B": "Entrepreneurship involves significant risk.",
+        "C": "Correct. Flexibility allows owners to control their own time and path[cite: 961].",
+        "D": "Entrepreneurs have more responsibility than employees."
+      },
+      "topic": "Entrepreneurship Nature",
+      "difficulty": "easy",
+      "mastery": 95
+    },
+    {
+      "id": "ENT-061",
+      "question": "Ada purchases jewelry and clothing from many different manufacturers and sells the items to customers in her boutique. What kind of buyer is Ada?",
+      "choices": { "A": "Business use", "B": "Transformational", "C": "Wholesale", "D": "Retail" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Business-use buyers use items to run their own operations.",
+        "B": "Transformational buyers change the product (e.g., raw materials to finished goods).",
+        "C": "Wholesale buyers sell to other businesses.",
+        "D": "Correct. Retail buyers sell products directly to final consumers[cite: 968]."
+      },
+      "topic": "Operations",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-062",
+      "question": "Which of the following types of data analysis suggests a future course of action:",
+      "choices": { "A": "Instructive analytics", "B": "Prescriptive analytics", "C": "Predictive analytics", "D": "Descriptive analytics" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Instructive is not a standard term for this type of analysis.",
+        "B": "Correct. Prescriptive analytics recommends what should be done[cite: 972].",
+        "C": "Predictive analytics only says what might happen, not what to do about it.",
+        "D": "Descriptive analytics explains what has already happened."
+      },
+      "topic": "Business Information Management",
+      "difficulty": "hard",
+      "mastery": 45
+    },
+    {
+      "id": "ENT-063",
+      "question": "Should a business develop permanent marketing strategies?",
+      "choices": {
+        "A": "Yes, changing marketing strategies results in confusion for management.",
+        "B": "No, businesses must be alert to changes in the marketplace.",
+        "C": "Yes, the competition will know what to expect from the business.",
+        "D": "No, marketing strategies change regardless of what the business wants."
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Stagnant strategies lead to obsolescence.",
+        "B": "Correct. Markets are dynamic, so strategies must adapt to stay relevant[cite: 977].",
+        "C": "Predictability can actually be a disadvantage against savvy competitors.",
+        "D": "Strategies don't change themselves; managers must change them intentionally."
+      },
+      "topic": "Marketing Planning",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-064",
+      "question": "Yasir works for a company that manufactures glass bottles. His job is to inspect the bottles to make sure they were made correctly. He throws away any defective bottles. This example is best described as quality",
+      "choices": { "A": "assurance.", "B": "improvement.", "C": "circle.", "D": "control." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Assurance is the process of planning for quality throughout production.",
+        "B": "Improvement is a continuous effort to make processes better.",
+        "C": "A quality circle is a team of workers who meet to solve problems.",
+        "D": "Correct. Quality control involves checking the final product for defects[cite: 986]."
+      },
+      "topic": "Quality Management",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-065",
+      "question": "Which of the following words best describes enterprise risk management:",
+      "choices": { "A": "Hazardous", "B": "Empathetic", "C": "Segmented", "D": "Comprehensive" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "ERM is a solution for hazards, not hazardous itself.",
+        "B": "Empathy is a human trait, not a management system description.",
+        "C": "ERM should be integrated, not segmented.",
+        "D": "Correct. ERM covers the entire scope of risks facing an organization[cite: 991]."
+      },
+      "topic": "Risk Management",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-066",
+      "question": "What is an effect of monitoring your progress while working toward a goal?",
+      "choices": {
+        "A": "It increases the likelihood that you will succeed.",
+        "B": "It makes your goal more challenging and time-consuming.",
+        "C": "It encourages communication throughout the process.",
+        "D": "It adds external pressure to accomplish tasks."
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Checking progress allows for course corrections[cite: 993].",
+        "B": "It often makes goals easier by catching mistakes early.",
+        "C": "It can help, but the primary effect is on the individual's success rate.",
+        "D": "It's usually an internal accountability measure."
+      },
+      "topic": "Professional Development",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-067",
+      "question": "Macon Industries writes a purchase order for bolts, washers, and nails and sends the order to the Stanton Company to process. In this situation, the purchase order is a(n)",
+      "choices": { "A": "letter of intent.", "B": "open order.", "C": "accounts-receivable document.", "D": "sales contract." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "A letter of intent is a preliminary document, not an order.",
+        "B": "An open order is for recurring purchases without a specific quantity.",
+        "C": "It becomes an accounts receivable for the seller, but is an order for the buyer.",
+        "D": "Correct. A purchase order becomes a legally binding sales contract once accepted[cite: 1002]."
+      },
+      "topic": "Business Law",
+      "difficulty": "hard",
+      "mastery": 50
+    },
+    {
+      "id": "ENT-068",
+      "question": "If one of your coworkers is treating another coworker unfairly, what is the ethical thing to do?",
+      "choices": { "A": "Ignore it.", "B": "Speak up.", "C": "Look for another job.", "D": "Be aggressive." },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Ignoring unethical behavior allows it to continue.",
+        "B": "Correct. Ethics requires taking action against injustice[cite: 1005].",
+        "C": "Quitting is an extreme response and doesn't solve the immediate problem.",
+        "D": "Being assertive is better than being aggressive, which can cause conflict."
+      },
+      "topic": "Ethics",
+      "difficulty": "easy",
+      "mastery": 95
+    },
+    {
+      "id": "ENT-069",
+      "question": "Two small businesses share a warehouse, keeping rent costs low for both businesses. The businesses have formed a",
+      "choices": { "A": "strategic relationship.", "B": "distribution channel.", "C": "contingancy plan.", "D": "communications plan." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. A strategic relationship allows companies to work together for mutual benefit[cite: 1010].",
+        "B": "Distribution channels move goods from producer to consumer.",
+        "C": "A contingency plan is a backup for emergencies.",
+        "D": "A communications plan is for internal or external messaging."
+      },
+      "topic": "Operations",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-070",
+      "question": "Which of the following is an example of an employee-assistance program:",
+      "choices": { "A": "Corrective action", "B": "Compensation", "C": "Training on the use of dangerous power equipment", "D": "Career and education planning" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Corrective action is a disciplinary process[cite: 1015].",
+        "B": "Compensation is the standard pay for work[cite: 1016].",
+        "C": "Equipment training is basic safety, not an 'assistance' program[cite: 1017].",
+        "D": "Correct. Assistance programs help employees with their overall development[cite: 1018]."
+      },
+      "topic": "Human Resources",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-071",
+      "question": "While working as a server, Delia came up with an idea for an automated payment system for restaurants. This is an example of how",
+      "choices": {
+        "A": "it is unethical to copy another business's model.",
+        "B": "economic trends can help you identify opportunities.",
+        "C": "work experience can lead to new business ventures.",
+        "D": "entrepreneurs should focus on completely new industries."
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Developing a new system is innovation, not copying.",
+        "B": "This idea came from direct experience, not an economic report.",
+        "C": "Correct. Direct industry experience helps identify pain points that need solutions[cite: 1023].",
+        "D": "Many entrepreneurs succeed by improving industries they already know."
+      },
+      "topic": "Entrepreneurial Opportunity",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-072",
+      "question": "Which of the following is an example of a product line:",
+      "choices": { "A": "Philadelphia Cream Cheese", "B": "A1 Steak Sauce", "C": "Kraft meats", "D": "Capri Sun" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "This is a single specific brand and item[cite: 1026].",
+        "B": "This is a single product[cite: 1027].",
+        "C": "Correct. A product line is a group of related products sold by one company[cite: 1028].",
+        "D": "This is a single drink brand[cite: 1029]."
+      },
+      "topic": "Product/Service Management",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-073",
+      "question": "The observation method of collecting marketing research data involves",
+      "choices": { "A": "watching what customers do.", "B": "conducting online surveys.", "C": "test marketing new products.", "D": "calling customers on the phone." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Observation involves watching behaviors without direct interaction[cite: 1031].",
+        "B": "Surveys are a survey method, not observation.",
+        "C": "Test marketing is an experimental method.",
+        "D": "Phone calls are part of survey research."
+      },
+      "topic": "Marketing Research",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-074",
+      "question": "Which of the following guidelines would be the most appropriate for a supervisor to follow when administering remedial action:",
+      "choices": {
+        "A": "Take action in the presence of the employee's coworkers.",
+        "B": "Let personnel handle minor problems with employees.",
+        "C": "Delay taking action so that the connection between the infraction and the penalty becomes blurred.",
+        "D": "Resume a normal attitude toward the employee as quickly as possible."
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Discipline should always be done privately to maintain dignity.",
+        "B": "Supervisors should manage their own teams directly.",
+        "C": "Corrective action should be immediate to be effective[cite: 1038].",
+        "D": "Correct. This maintains professional focus after the issue is resolved[cite: 1039]."
+      },
+      "topic": "Management",
+      "difficulty": "hard",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-075",
+      "question": "Evaluating an employee's performance by comparing it to the goals that were set for the job is part of a technique called",
+      "choices": { "A": "management by objectives..", "B": "positive reinforcement.", "C": "rank-order technique.", "D": "affirmative action." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. MBO focuses on achieving specific, agreed-upon targets[cite: 1041].",
+        "B": "Positive reinforcement rewards good behavior but isn't an evaluation method.",
+        "C": "Rank-order compares employees against each other.",
+        "D": "Affirmative action is a policy for fair hiring, not performance evaluation."
+      },
+      "topic": "Management",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-076",
+      "question": "If a hurricane impacts production at a company's Atlanta plant, it will shift production demands to its plant in Arkansas. This is an example of",
+      "choices": { "A": "continuation planning.", "B": "sales forecasting.", "C": "SWOT analysis.", "D": "risk assessment." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. This ensures operations continue even after a disaster[cite: 1048].",
+        "B": "Sales forecasting predicts future sales volume.",
+        "C": "SWOT looks at general Strengths, Weaknesses, Opportunities, and Threats.",
+        "D": "Risk assessment identifies the hurricane risk before it happens."
+      },
+      "topic": "Operations",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-077",
+      "question": "A bakery has a vision to become the number one rated cupcake shop in town for the next six months. The most significant problem with this vision is that it is",
+      "choices": { "A": "unclear.", "B": "relatable.", "C": "short term.", "D": "realistic." },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "The goal is actually very clear.",
+        "B": "Being relatable is a positive trait for a vision.",
+        "C": "Correct. Visions should be long-term and inspiring, not just for six months[cite: 1056].",
+        "D": "It might be realistic, but that doesn't fix the timeframe issue."
+      },
+      "topic": "Management",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-078",
+      "question": "Marketers should check on their markets periodically because markets can",
+      "choices": { "A": "advance.", "B": "lead.", "C": "fail.", "D": "change." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Markets can advance, but monitoring is for all types of movement.",
+        "B": "Markets don't 'lead' the business in a strategic sense.",
+        "C": "Total failure is rare, but shifts in demand are constant.",
+        "D": "Correct. Markets are dynamic and require ongoing monitoring to stay relevant[cite: 1062]."
+      },
+      "topic": "Marketing Research",
+      "difficulty": "easy",
+      "mastery": 95
+    },
+    {
+      "id": "ENT-079",
+      "question": "What are important considerations in establishing hardware/software specifications for a business?",
+      "choices": {
+        "A": "Capabilities, compatibility, reliability, and cost",
+        "B": "Strategic planning, training, upgrades, and cost",
+        "C": "User needs, mobility, delivery terms, and technical support",
+        "D": "Security, social media policies, performance, and licensing"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. These technical specs ensure the tools will actually work for the business[cite: 1064].",
+        "B": "Strategic planning is a high-level process, not a technical spec.",
+        "C": "Delivery terms are for shipping, not the specifications of the tool itself.",
+        "D": "While important, these are secondary to whether the hardware can do the job."
+      },
+      "topic": "Technology",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-080",
+      "question": "Hotel chains carefully analyze economic conditions and the competition before raising prices because the product the chains provide has",
+      "choices": { "A": "limited supply.", "B": "elastic demand.", "C": "unlimited supply.", "D": "inelastic demand." },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Rooms are limited, but that's not why they watch the economy.",
+        "B": "Correct. Luxury or non-essential items like hotel stays have demand that changes with price[cite: 1070].",
+        "C": "Hotel rooms are a fixed, limited resource.",
+        "D": "Inelastic demand means people buy regardless of price (like medicine)."
+      },
+      "topic": "Economics",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-081",
+      "question": "One of the leading computer manufacturers has decided to produce software cases of high quality and high price. Who will ultimately decide if the price is too high?",
+      "choices": { "A": "Consumers", "B": "Government", "C": "Competition", "D": "Manufacturer" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. In a free market, consumers 'vote' with their wallets[cite: 474, 1075].",
+        "B": "The government only steps in for essential needs or monopolies[cite: 475].",
+        "C": "Competition influences the market, but the buyer makes the choice[cite: 476].",
+        "D": "The manufacturer sets the price but doesn't decide if people buy it[cite: 477]."
+      },
+      "topic": "Pricing",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-082",
+      "question": "Before beginning a new project, a manager who uses business process thinking would most likely",
+      "choices": {
+        "A": "examine the financial implications of the project to make sure it will be profitable.",
+        "B": "create a list of things that employees should avoid doing during the project.",
+        "C": "explain to employees the end result that the manager wants to achieve from the project.",
+        "D": "determine the steps that employees need to follow to complete the project."
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Finance is important but is not the core of process-oriented thinking[cite: 483].",
+        "B": "Process thinking focuses on established steps, not just avoidance[cite: 482].",
+        "C": "Process focus is on the 'how' more than the 'what'[cite: 481].",
+        "D": "Correct. Business process thinking is all about establishing standard operating procedures[cite: 478, 479]."
+      },
+      "topic": "Management",
+      "difficulty": "medium",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-083",
+      "question": "What type of information in a company's CRM system can help a company determine a customer's product preferences?",
+      "choices": { "A": "Customer's prior purchases", "B": "Customer's name", "C": "Customer's preferred payment method", "D": "Customer's address" },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Past buying behavior is the best predictor of future preferences[cite: 1086].",
+        "B": "Names don't provide insight into interests.",
+        "C": "Payment methods track how they pay, not what they like.",
+        "D": "Address shows location, which is only a minor part of preference."
+      },
+      "topic": "Marketing",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-084",
+      "question": "Ben is hoping to start his own digital marketing business. Which of the following expenditures would fall under the category of 'professional fees' when Ben is estimating the costs of starting his company:",
+      "choices": { "A": "Insurance and business permits", "B": "Computer hardware and software", "C": "A trademark for his company logo", "D": "Inventory and raw materials" },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Permits and insurance are regulatory or operating costs[cite: 1092].",
+        "B": "Hardware is a capital expenditure[cite: 1093].",
+        "C": "Correct. Legal help for trademarks or accounting advice are 'professional fees'[cite: 1094].",
+        "D": "Inventory consists of physical goods to be sold[cite: 1095]."
+      },
+      "topic": "Finance",
+      "difficulty": "medium",
+      "mastery": 60
+    },
+    {
+      "id": "ENT-085",
+      "question": "An entrepreneurial business owner must",
+      "choices": { "A": "be independently wealthy.", "B": "dislike business planning.", "C": "desire regular 40-hour work weeks.", "D": "have an adventurous spirit." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Wealth is not a requirement; many start with very little.",
+        "B": "Planning is critical for entrepreneurial success.",
+        "C": "Entrepreneurs often work much more than 40 hours.",
+        "D": "Correct. Entrepreneurship requires a willingness to take risks and explore the unknown[cite: 1100]."
+      },
+      "topic": "Entrepreneurship Nature",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-086",
+      "question": "Because operations managers control so much of a business's money, they must focus on",
+      "choices": { "A": "keeping costs low.", "B": "hiring the best employees.", "C": "creating effective advertising campaigns.", "D": "generating publicity." },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Efficiency and cost control are the primary goals of operations[cite: 1102].",
+        "B": "Hiring is primarily an HR function.",
+        "C": "Advertising is a marketing function.",
+        "D": "Publicity is a PR function."
+      },
+      "topic": "Operations",
+      "difficulty": "easy",
+      "mastery": 80
+    },
+    {
+      "id": "ENT-087",
+      "question": "Within a startup business or young company, the primary responsibility for acting ethically falls to",
+      "choices": { "A": "the company's customers.", "B": "the business's employees.", "C": "business investors.", "D": "the entrepreneur." },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Customers aren't responsible for the firm's internal ethics.",
+        "B": "Employees follow the leader's example, but the tone is set at the top.",
+        "C": "Investors want ethics but don't manage daily actions.",
+        "D": "Correct. In a small firm, the owner's personal values become the company's culture[cite: 1110]."
+      },
+      "topic": "Ethics",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-088",
+      "question": "Which of the following helps the reader find specific elements of a formal report:",
+      "choices": { "A": "Conclusion", "B": "Title page", "C": "Executive summary", "D": "Table of contents" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "The conclusion summarizes the findings[cite: 1112].",
+        "B": "The title page lists the report's name and author[cite: 1113].",
+        "C": "The executive summary gives a brief overview of the whole document[cite: 1114].",
+        "D": "Correct. The table of contents lists sections and page numbers[cite: 540, 1115]."
+      },
+      "topic": "Professional Development",
+      "difficulty": "easy",
+      "mastery": 95
+    },
+    {
+      "id": "ENT-089",
+      "question": "Calculate a business's total cash available if it has a beginning cash balance of $2,300; total cash receipts of $4,900; and credit sales of $3,500.",
+      "choices": { "A": "$5,800", "B": "$7,200", "C": "$10,700", "D": "$3,700" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "This number does not account for the beginning balance correctly.",
+        "B": "Correct. $2,300 + $4,900 = $7,200. Credit sales are not yet cash[cite: 541, 542].",
+        "C": "This incorrectly includes credit sales, which haven't been received yet.",
+        "D": "This does not match the sum of cash on hand and incoming cash."
+      },
+      "topic": "Accounting",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-090",
+      "question": "Express Limited is planning to enlarge its product mix of paper goods that includes paper plates, greeting cards, and gift wrap. Which of the following would Express Limited be most likely to add to the business's product mix:",
+      "choices": { "A": "Hardware", "B": "Notebooks", "C": "Clothing", "D": "Lamps" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Hardware is unrelated to paper goods[cite: 583].",
+        "B": "Correct. Notebooks are a related paper product[cite: 582, 1126].",
+        "C": "Clothing is a different industry entirely[cite: 583].",
+        "D": "Lamps are home furnishings, not paper goods[cite: 583]."
+      },
+      "topic": "Product/Service Management",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-091",
+      "question": "A small brick-and-mortar bookstore will benefit most from a supply chain that is designed to",
+      "choices": {
+        "A": "purchase books to fulfill requested orders.",
+        "B": "stock large quantities of best sellers.",
+        "C": "ship books to customers' homes.",
+        "D": "use an electronic commerce center to handle orders."
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. Fulfilling custom orders keeps overhead low for small shops[cite: 1130].",
+        "B": "Overstocking is risky for small retailers with limited space.",
+        "C": "This is a feature of online stores, not primarily physical ones.",
+        "D": "Small shops often lack the infrastructure for a massive e-commerce center."
+      },
+      "topic": "Operations",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-092",
+      "question": "A primary reason that businesses identify market segments is because consumers",
+      "choices": {
+        "A": "are not loyal to popular brands.",
+        "B": "demand high-quality goods.",
+        "C": "have different needs and wants.",
+        "D": "desire the same level of service."
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Loyalty exists, but it varies by segment.",
+        "B": "Most people want quality, but they prioritize it differently.",
+        "C": "Correct. Identifying groups with similar needs allows for better targeting[cite: 1137].",
+        "D": "Consumers actually desire different levels of service and price points."
+      },
+      "topic": "Marketing Research",
+      "difficulty": "easy",
+      "mastery": 90
+    },
+    {
+      "id": "ENT-093",
+      "question": "Charlie has a great idea for a new website, but he isn't sure if there is a demand for it. Charlie needs to",
+      "choices": { "A": "develop his business plan.", "B": "file for a patent.", "C": "consult external resources.", "D": "obtain funding." },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "Plans come after you've validated that people want the product.",
+        "B": "Patents protect the 'how', not whether people will buy the 'what'.",
+        "C": "Correct. Market research is needed to determine if demand exists[cite: 1143].",
+        "D": "Funding is difficult to get without proof of demand."
+      },
+      "topic": "Entrepreneurial Opportunity",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-094",
+      "question": "A unique selling proposition answers which of the following customer questions:",
+      "choices": {
+        "A": "Why is this good or service a great value for me?",
+        "B": "Who else uses this product?",
+        "C": "What is the cost of this item?",
+        "D": "Where can I buy this product?"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correct. A USP explains what makes your product better than others[cite: 1146].",
+        "B": "This is about social proof, not a USP.",
+        "C": "Cost is just one attribute, not necessarily a unique value proposition.",
+        "D": "Place is part of the marketing mix, not the USP."
+      },
+      "topic": "Branding",
+      "difficulty": "easy",
+      "mastery": 85
+    },
+    {
+      "id": "ENT-095",
+      "question": "Which of the following is one of the main components of an income statement:",
+      "choices": { "A": "Assets", "B": "Taxes", "C": "Liabilities", "D": "Revenue" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Assets are found on the balance sheet[cite: 132].",
+        "B": "Taxes are recorded, but revenue is a primary component of income calculation[cite: 132].",
+        "C": "Liabilities are found on the balance sheet[cite: 132].",
+        "D": "Correct. Income statements focus on revenue and expenses to show profit[cite: 132]."
+      },
+      "topic": "Accounting",
+      "difficulty": "hard",
+      "mastery": 55
+    },
+    {
+      "id": "ENT-096",
+      "question": "What is an example of an external factor that affects promotion?",
+      "choices": { "A": "Increase in a product's price", "B": "Government regulation of ads", "C": "Reorganization of the business", "D": "A change in distribution methods" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Price is an internal decision made by the firm.",
+        "B": "Correct. Law and regulation come from outside the business[cite: 133].",
+        "C": "Reorganization is an internal change.",
+        "D": "Distribution methods are generally determined by the firm internally."
+      },
+      "topic": "Promotion",
+      "difficulty": "medium",
+      "mastery": 70
+    },
+    {
+      "id": "ENT-097",
+      "question": "Which of the following is an operational issue that entrepreneurs must consider when planning their businesses:",
+      "choices": { "A": "Direct competitors", "B": "Production process", "C": "Source of financing", "D": "Target market" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Competitors are a market consideration[cite: 134].",
+        "B": "Correct. Operations involves the actual making and doing of the work[cite: 134].",
+        "C": "Financing is a financial consideration[cite: 134].",
+        "D": "Target market is a marketing consideration[cite: 134]."
+      },
+      "topic": "Operations",
+      "difficulty": "medium",
+      "mastery": 65
+    },
+    {
+      "id": "ENT-098",
+      "question": "Which of the following products would likely use an exclusive distribution pattern:",
+      "choices": { "A": "A home-decorating magazine", "B": "A gallon of milk", "C": "A silk necktie", "D": "A large piece of farm machinery" },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "Magazines use intensive distribution to be found everywhere[cite: 134].",
+        "B": "Milk is a convenience good that needs high availability[cite: 134].",
+        "C": "Ties use selective distribution in specific stores[cite: 134].",
+        "D": "Correct. Expensive, specialized items are only sold by a few authorized dealers[cite: 134]."
+      },
+      "topic": "Channel Management",
+      "difficulty": "hard",
+      "mastery": 50
+    },
+    {
+      "id": "ENT-099",
+      "question": "Ben is conducting a feasibility study for a new venture idea. Which of the following questions should Ben ask and answer in terms of the venture's financial considerations:",
+      "choices": {
+        "A": "Is there a real demand for the idea, good, or service?",
+        "B": "How will the business obtain the money it needs?",
+        "C": "What are the regulations that the business is likely to encounter?",
+        "D": "How will the business communicate information about its products?"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Demand is a market consideration[cite: 135].",
+        "B": "Correct. Finding money is a core financial issue[cite: 136].",
+        "C": "Regulations are a legal consideration[cite: 135].",
+        "D": "Communications relate to promotion[cite: 135]."
+      },
+      "topic": "Entrepreneurial Opportunity",
+      "difficulty": "medium",
+      "mastery": 75
+    },
+    {
+      "id": "ENT-100",
+      "question": "What is a primary factor that small-business owners should consider when deciding to hire additional staff members?",
+      "choices": { "A": "Product standards", "B": "Payroll expenses", "C": "Training methods", "D": "Interview techniques" },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "Standards matter, but the ability to pay comes first.",
+        "B": "Correct. Payroll is usually the largest expense for a small firm[cite: 1122].",
+        "C": "Training is a secondary concern after the hire is approved.",
+        "D": "Interviews are the tool used to pick, not the reason to hire."
+      },
+      "topic": "Human Resources",
+      "difficulty": "easy",
+      "mastery": 80
+    }
+  ]
+}
