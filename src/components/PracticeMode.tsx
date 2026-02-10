@@ -88,16 +88,16 @@ export default function PracticeMode({
 
   if (!questionCount) {
     return (
-      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-4 sm:p-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">
           Select Practice Length
         </h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4">
           {([10, 25, 50, 100] as QuestionCount[]).map(count => (
             <button
               key={count}
               onClick={() => handleSelectCount(count)}
-              className="py-4 px-6 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:bg-blue-700 transition"
+              className="py-3 sm:py-4 px-4 sm:px-6 bg-blue-600 text-white rounded-lg font-semibold text-base sm:text-lg hover:bg-blue-700 transition"
             >
               {count} Questions
             </button>
@@ -117,8 +117,8 @@ export default function PracticeMode({
   return (
     <div className="max-w-4xl mx-auto">
       {/* Progress Bar */}
-      <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
-        <div className="flex justify-between mb-2">
+      <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
+        <div className="flex flex-col sm:flex-row justify-between items-center mb-2 gap-2">
           <span className="text-sm font-medium text-gray-700">
             Question {currentIndex + 1} of {selectedQuestions.length}
           </span>
@@ -135,12 +135,12 @@ export default function PracticeMode({
       </div>
 
       {/* Question Card */}
-      <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-        <div className="mb-4">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+      <div className="bg-white rounded-lg shadow-lg p-4 sm:p-8 mb-4 sm:mb-6">
+        <div className="mb-3 sm:mb-4 flex flex-wrap gap-2">
+          <span className="inline-block px-2 sm:px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs sm:text-sm font-medium">
             {currentQuestion.topic}
           </span>
-          <span className={`inline-block ml-2 px-3 py-1 rounded-full text-sm font-medium ${
+          <span className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${
             currentQuestion.difficulty === 'easy' ? 'bg-green-100 text-green-800' :
             currentQuestion.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-800' :
             'bg-red-100 text-red-800'
@@ -149,15 +149,15 @@ export default function PracticeMode({
           </span>
         </div>
 
-        <h3 className="text-2xl font-bold text-gray-900 mb-6">
+        <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
           {currentQuestion.question}
         </h3>
 
-        <div className="space-y-3 mb-6">
+        <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
           {(['A', 'B', 'C', 'D'] as const).map(choice => {
             const isSelected = selectedAnswer === choice;
             const isCorrectAnswer = choice === currentQuestion.correctAnswer;
-            let buttonClass = 'w-full text-left p-4 rounded-lg border-2 transition ';
+            let buttonClass = 'w-full text-left p-3 sm:p-4 rounded-lg border-2 transition ';
 
             if (showFeedback) {
               if (isCorrectAnswer) {
@@ -188,10 +188,10 @@ export default function PracticeMode({
         </div>
 
         {showFeedback && (
-          <div className={`p-4 rounded-lg mb-6 ${
+          <div className={`p-3 sm:p-4 rounded-lg mb-4 sm:mb-6 ${
             isCorrect ? 'bg-green-50 border-l-4 border-green-500' : 'bg-red-50 border-l-4 border-red-500'
           }`}>
-            <div className="font-semibold text-lg mb-2">
+            <div className="font-semibold text-base sm:text-lg mb-2">
               {isCorrect ? (
                 <span className="text-green-800">✓ Correct!</span>
               ) : (
@@ -219,14 +219,14 @@ export default function PracticeMode({
             <button
               onClick={handleSubmit}
               disabled={!selectedAnswer}
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
+              className="px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
             >
               Submit Answer
             </button>
           ) : (
             <button
               onClick={handleNext}
-              className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
+              className="px-4 sm:px-6 py-2 sm:py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
             >
               {currentIndex < selectedQuestions.length - 1 ? 'Next Question' : 'Finish Practice'}
             </button>

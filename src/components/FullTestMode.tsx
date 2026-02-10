@@ -141,16 +141,16 @@ export default function FullTestMode({
 
   if (!questionCount) {
     return (
-      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-4 sm:p-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">
           Select Test Length
         </h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4">
           {([10, 25, 50, 100] as QuestionCount[]).map(count => (
             <button
               key={count}
               onClick={() => handleSelectCount(count)}
-              className="py-4 px-6 bg-green-600 text-white rounded-lg font-semibold text-lg hover:bg-green-700 transition"
+              className="py-3 sm:py-4 px-4 sm:px-6 bg-green-600 text-white rounded-lg font-semibold text-base sm:text-lg hover:bg-green-700 transition"
             >
               {count} Questions
             </button>
@@ -313,9 +313,9 @@ export default function FullTestMode({
   return (
     <div className="max-w-4xl mx-auto">
       {/* Timer and Progress */}
-      <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
-        <div className="flex justify-between items-center mb-4">
-          <div className="text-2xl font-bold text-red-600">
+      <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6 mb-4 sm:mb-6">
+        <div className="flex flex-col sm:flex-row justify-between items-center mb-4 gap-2">
+          <div className="text-xl sm:text-2xl font-bold text-red-600">
             {formatTime(timeRemaining)}
           </div>
           <div className="text-sm text-gray-600">
@@ -334,25 +334,25 @@ export default function FullTestMode({
       </div>
 
       {/* Question Card */}
-      <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-        <div className="mb-4">
-          <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+      <div className="bg-white rounded-lg shadow-lg p-4 sm:p-8 mb-4 sm:mb-6">
+        <div className="mb-3 sm:mb-4">
+          <span className="inline-block px-2 sm:px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs sm:text-sm font-medium">
             {currentQuestion.topic}
           </span>
         </div>
 
-        <h3 className="text-2xl font-bold text-gray-900 mb-6">
+        <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
           {currentQuestion.question}
         </h3>
 
-        <div className="space-y-3 mb-6">
+        <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
           {(['A', 'B', 'C', 'D'] as const).map(choice => {
             const isSelected = currentAnswer?.selectedAnswer === choice;
             return (
               <button
                 key={choice}
                 onClick={() => handleAnswerSelect(choice)}
-                className={`w-full text-left p-4 rounded-lg border-2 transition ${
+                className={`w-full text-left p-3 sm:p-4 rounded-lg border-2 transition ${
                   isSelected
                     ? 'bg-blue-100 border-blue-500 text-blue-900'
                     : 'border-gray-300 bg-white hover:border-blue-300 hover:bg-blue-50 text-gray-900'
@@ -365,18 +365,18 @@ export default function FullTestMode({
           })}
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex flex-col-reverse sm:flex-row justify-between gap-3">
           <button
             onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
             disabled={currentIndex === 0}
-            className="px-6 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
+            className="px-4 sm:px-6 py-2 sm:py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
           >
             Previous
           </button>
-          <div className="flex gap-4">
+          <div className="flex gap-2 sm:gap-4">
             <button
               onClick={handleSubmitTest}
-              className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition"
+              className="px-4 sm:px-6 py-2 sm:py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 transition"
             >
               Submit Test
             </button>
@@ -387,7 +387,7 @@ export default function FullTestMode({
                 )
               }
               disabled={currentIndex === selectedQuestions.length - 1}
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
+              className="px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition"
             >
               Next
             </button>
@@ -396,9 +396,9 @@ export default function FullTestMode({
       </div>
 
       {/* Question Navigation */}
-      <div className="bg-white rounded-lg shadow-lg p-6">
-        <h4 className="font-semibold text-gray-900 mb-4">Question Navigation</h4>
-        <div className="grid grid-cols-10 gap-2">
+      <div className="bg-white rounded-lg shadow-lg p-4 sm:p-6">
+        <h4 className="font-semibold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Question Navigation</h4>
+        <div className="grid grid-cols-5 sm:grid-cols-10 gap-1 sm:gap-2">
           {selectedQuestions.map((_, index) => {
             const answer = answers[index];
             const isAnswered = answer?.selectedAnswer !== null;
@@ -408,7 +408,7 @@ export default function FullTestMode({
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`h-10 rounded ${
+                className={`h-8 sm:h-10 rounded text-xs sm:text-sm ${
                   isCurrent
                     ? 'bg-blue-600 text-white ring-2 ring-blue-300'
                     : isAnswered
@@ -421,13 +421,13 @@ export default function FullTestMode({
             );
           })}
         </div>
-        <div className="mt-4 flex gap-4 text-sm text-gray-600">
+        <div className="mt-3 sm:mt-4 flex flex-wrap gap-3 text-xs sm:text-sm text-gray-600">
           <div className="flex items-center">
-            <div className="w-4 h-4 bg-green-500 rounded mr-2"></div>
+            <div className="w-3 h-3 sm:w-4 sm:h-4 bg-green-500 rounded mr-1 sm:mr-2"></div>
             Answered
           </div>
           <div className="flex items-center">
-            <div className="w-4 h-4 bg-gray-200 rounded mr-2"></div>
+            <div className="w-3 h-3 sm:w-4 sm:h-4 bg-gray-200 rounded mr-1 sm:mr-2"></div>
             Not Answered
           </div>
         </div>

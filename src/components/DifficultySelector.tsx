@@ -46,20 +46,20 @@ export default function DifficultySelector({ onSelectDifficulty }: DifficultySel
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
       <div className="max-w-4xl w-full">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to DecaMaxxing</h1>
-          <p className="text-xl text-gray-600 mb-2">Choose your starting difficulty level</p>
-          <p className="text-gray-500">
+        <div className="text-center mb-6 sm:mb-8">
+          <h1 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">Welcome to DecaMaxxing</h1>
+          <p className="text-lg sm:text-xl text-gray-600 mb-2">Choose your starting difficulty level</p>
+          <p className="text-sm sm:text-gray-500">
             Don't worry - you can always adjust your practice to focus on any difficulty level later!
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
           {difficulties.map((difficulty) => (
             <button
               key={difficulty.level}
               onClick={() => setSelected(difficulty.level)}
-              className={`text-left p-6 rounded-lg border-2 transition-all transform hover:scale-105 ${
+              className={`text-left p-4 sm:p-6 rounded-lg border-2 transition-all transform hover:scale-105 ${
                 selected === difficulty.level
                   ? `${difficulty.bgColor} ${difficulty.borderColor} border-4 shadow-lg`
                   : 'bg-white border-gray-300 hover:border-gray-400'
@@ -67,23 +67,23 @@ export default function DifficultySelector({ onSelectDifficulty }: DifficultySel
             >
               <div className="flex items-center mb-3">
                 <div
-                  className={`w-6 h-6 rounded-full border-2 mr-3 flex items-center justify-center ${
+                  className={`w-5 sm:w-6 h-5 sm:h-6 rounded-full border-2 mr-2 sm:mr-3 flex items-center justify-center ${
                     selected === difficulty.level
                       ? `${difficulty.borderColor}`
                       : 'border-gray-400'
                   }`}
                 >
                   {selected === difficulty.level && (
-                    <div className={`w-3 h-3 rounded-full ${
+                    <div className={`w-2.5 sm:w-3 h-2.5 sm:h-3 rounded-full ${
                       difficulty.level === 'beginner' ? 'bg-green-600' :
                       difficulty.level === 'intermediate' ? 'bg-blue-600' :
                       'bg-purple-600'
                     }`} />
                   )}
                 </div>
-                <h3 className={`text-2xl font-bold ${difficulty.color}`}>{difficulty.title}</h3>
+                <h3 className={`text-lg sm:text-2xl font-bold ${difficulty.color}`}>{difficulty.title}</h3>
               </div>
-              <p className="text-gray-600">{difficulty.description}</p>
+              <p className="text-sm sm:text-gray-600">{difficulty.description}</p>
             </button>
           ))}
         </div>
@@ -92,7 +92,7 @@ export default function DifficultySelector({ onSelectDifficulty }: DifficultySel
           <button
             onClick={() => selected && onSelectDifficulty(selected)}
             disabled={!selected}
-            className={`px-8 py-4 rounded-lg font-semibold text-lg transition ${
+            className={`px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition ${
               selected
                 ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-lg'
                 : 'bg-gray-300 text-gray-500 cursor-not-allowed'

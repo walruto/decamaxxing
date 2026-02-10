@@ -74,39 +74,39 @@ export default function Home({ onStartPractice, onStartFullTest, questions, sele
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div className="flex justify-between items-start mb-4">
-            <div 
+            <div
               className="p-3 rounded-xl transition-all duration-300"
-              style={{ 
+              style={{
                 backgroundColor: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})20`,
                 color: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})`
               }}
             >
-              <BookMarked size={24}/>
+              <BookMarked size={20} />
             </div>
-            <span className="text-xs font-bold text-slate-400">TOTAL QUESTIONS</span>
+            <span className="text-xs sm:text-xs font-bold text-slate-400">TOTAL QUESTIONS</span>
           </div>
-          <h3 className="text-3xl font-black text-slate-800">{questions.length}</h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-slate-800">{questions.length}</h3>
           <p className="text-sm text-slate-500">In {selectedCluster} cluster</p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div className="flex justify-between items-start mb-4">
-            <div 
+            <div
               className="p-3 rounded-xl transition-all duration-300"
-              style={{ 
+              style={{
                 backgroundColor: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})20`,
                 color: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})`
               }}
             >
-              <Target size={24}/>
+              <Target size={20} />
             </div>
-            <span className="text-xs font-bold text-slate-400">AVERAGE MASTERY</span>
+            <span className="text-xs sm:text-xs font-bold text-slate-400">AVERAGE MASTERY</span>
           </div>
-          <h3 className="text-3xl font-black text-slate-800">{Math.round(averageMastery)}%</h3>
-          <p 
+          <h3 className="text-2xl sm:text-3xl font-black text-slate-800">{Math.round(averageMastery)}%</h3>
+          <p
             className="text-sm font-medium transition-colors duration-300"
             style={{ color: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})` }}
           >
@@ -114,29 +114,29 @@ export default function Home({ onStartPractice, onStartFullTest, questions, sele
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200 shadow-sm">
           <div className="flex justify-between items-start mb-4">
-            <div 
+            <div
               className="p-3 rounded-xl transition-all duration-300"
-              style={{ 
+              style={{
                 backgroundColor: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})20`,
                 color: `var(--cluster-primary-${selectedCluster.replace(/\s+/g, '-')})`
               }}
             >
-              <Award size={24}/>
+              <Award size={20} />
             </div>
-            <span className="text-xs font-bold text-slate-400">PRACTICE SESSIONS</span>
+            <span className="text-xs sm:text-xs font-bold text-slate-400">PRACTICE SESSIONS</span>
           </div>
-          <h3 className="text-3xl font-black text-slate-800">{totalAnswered}</h3>
+          <h3 className="text-2xl sm:text-3xl font-black text-slate-800">{totalAnswered}</h3>
           <p className="text-sm text-slate-500">Questions answered</p>
         </div>
       </div>
 
       {/* Priority Topics Table */}
       {topicsByMastery.length > 0 && (
-        <div className="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
-          <div className="p-6 border-b border-slate-100 flex justify-between items-center">
-            <h3 className="text-xl font-bold text-slate-800 flex items-center gap-2">
+        <div className="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+          <div className="p-4 sm:p-6 border-b border-slate-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+            <h3 className="text-lg sm:text-xl font-bold text-slate-800 flex items-center gap-2">
               Priority Topics (Lowest Mastery)
             </h3>
           </div>
@@ -144,19 +144,19 @@ export default function Home({ onStartPractice, onStartFullTest, questions, sele
             <table className="w-full text-left">
               <thead className="bg-slate-50">
                 <tr>
-                  <th className="px-8 py-4 text-xs font-bold text-slate-500 uppercase">Topic</th>
-                  <th className="px-8 py-4 text-xs font-bold text-slate-500 uppercase">Questions</th>
-                  <th className="px-8 py-4 text-xs font-bold text-slate-500 uppercase">Mastery</th>
-                  <th className="px-8 py-4 text-xs font-bold text-slate-500 uppercase">Action</th>
+                  <th className="px-4 sm:px-8 py-3 sm:py-4 text-[10px] sm:text-xs font-bold text-slate-500 uppercase">Topic</th>
+                  <th className="px-4 sm:px-8 py-3 sm:py-4 text-[10px] sm:text-xs font-bold text-slate-500 uppercase">Questions</th>
+                  <th className="px-4 sm:px-8 py-3 sm:py-4 text-[10px] sm:text-xs font-bold text-slate-500 uppercase">Mastery</th>
+                  <th className="px-4 sm:px-8 py-3 sm:py-4 text-[10px] sm:text-xs font-bold text-slate-500 uppercase">Action</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {topicsByMastery.map((item) => (
                   <tr key={item.id} className="hover:bg-slate-50/50 transition-colors group">
-                    <td className="px-8 py-5">
+                    <td className="px-4 sm:px-8 py-3 sm:py-5">
                       <div>
-                        <p 
-                          className="font-bold text-slate-800 transition-colors group-hover:opacity-80"
+                        <p
+                          className="font-bold text-slate-800 transition-colors group-hover:opacity-80 text-sm sm:text-base"
                           style={{ color: 'inherit' }}
                           onMouseEnter={(e) => e.currentTarget.style.color = `var(--cluster-text-${selectedCluster.replace(/\s+/g, '-')})`}
                           onMouseLeave={(e) => e.currentTarget.style.color = ''}
@@ -165,33 +165,33 @@ export default function Home({ onStartPractice, onStartFullTest, questions, sele
                         </p>
                       </div>
                     </td>
-                    <td className="px-8 py-5">
-                      <span className="px-3 py-1 bg-slate-100 rounded-full text-xs font-bold text-slate-600">
+                    <td className="px-4 sm:px-8 py-3 sm:py-5">
+                      <span className="px-2 sm:px-3 py-1 bg-slate-100 rounded-full text-[10px] sm:text-xs font-bold text-slate-600">
                         {item.questionCount} questions
                       </span>
                     </td>
-                    <td className="px-8 py-5">
-                      <div className="flex items-center gap-3">
-                        <div className="w-24 bg-slate-100 h-2 rounded-full overflow-hidden">
-                          <div 
-                            className={`h-full rounded-full ${item.mastery > 80 ? 'bg-green-500' : item.mastery > 50 ? 'bg-blue-500' : 'bg-orange-500'}`} 
+                    <td className="px-4 sm:px-8 py-3 sm:py-5">
+                      <div className="flex items-center gap-2 sm:gap-3">
+                        <div className="w-16 sm:w-24 bg-slate-100 h-2 rounded-full overflow-hidden">
+                          <div
+                            className={`h-full rounded-full ${item.mastery > 80 ? 'bg-green-500' : item.mastery > 50 ? 'bg-blue-500' : 'bg-orange-500'}`}
                             style={{ width: `${item.mastery}%` }}
                           ></div>
                         </div>
-                        <span className="text-sm font-bold text-slate-600">{item.mastery}%</span>
+                        <span className="text-xs sm:text-sm font-bold text-slate-600">{item.mastery}%</span>
                       </div>
                     </td>
-                    <td className="px-8 py-5">
-                      <button 
+                    <td className="px-4 sm:px-8 py-3 sm:py-5">
+                      <button
                         onClick={onStartPractice}
                         className="p-2 hover:bg-white rounded-lg border border-transparent hover:border-slate-200 transition-all text-slate-400"
-                        style={{ 
+                        style={{
                           '--hover-color': `var(--cluster-text-${selectedCluster.replace(/\s+/g, '-')})`
                         } as React.CSSProperties}
                         onMouseEnter={(e) => e.currentTarget.style.color = `var(--cluster-text-${selectedCluster.replace(/\s+/g, '-')})`}
                         onMouseLeave={(e) => e.currentTarget.style.color = ''}
                       >
-                        <ChevronRight size={18} />
+                        <ChevronRight size={16} />
                       </button>
                     </td>
                   </tr>
